@@ -1,17 +1,28 @@
-// Declaring different variables of different data types
-let firstName = 'Asabeneh' // first name of a person
-let lastName = 'Yetayeh' // last name of a person
-let country = 'Finland' // country
-let city = 'Helsinki' // capital city
-let age = 100 // age in years
-let isMarried = true
+/* Create a variable.js file and declare variables and assign string, boolean, undefined and null data types
 
-// Declaring variables with number values
-const gravity = 9.81 // earth gravity  in m/s2
-const boilingPoint = 100 // water boiling point, temperature in oC
-const PI = 3.14 // geometrical constant
+Create datatypes.js file and use the JavaScript typeof operator to check different data types. Check the data type of each variable
 
-// Variables can also be declaring in one line separated by comma
-let name = 'Asabeneh', //name of a person
-  job = 'teacher',
-  live = 'Finland'
+Declare four variables without assigning values
+
+Declare four variables with assigned values
+
+Declare variables to store your first name, last name, marital status, country and age in multiple lines
+
+Declare variables to store your first name, last name, marital status, country and age in a single line
+
+Declare two variables myAge and yourAge and assign them initial values and log to the browser console.  */
+
+let myFirstName = "Vansh"
+let eligibile = true
+let age = undefined
+let email = null
+
+let one;
+let two;
+let three;
+let four;
+
+let myLastName = "Pachori", maritaStatus = "Unmarried", country = "India", myAge = 22
+
+console.log(age)
+console.log(myAge)
